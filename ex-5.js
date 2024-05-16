@@ -2,6 +2,6 @@
 let companyName = "TechUp";
 
 // Start coding here
-for (let split of companyName) {
-  console.log(`Number 1 character is ${split}`);
+for (let split in companyName) {
+  console.log(`Number ${Number(split)+1} character is ${companyName[split]}`);
 }
